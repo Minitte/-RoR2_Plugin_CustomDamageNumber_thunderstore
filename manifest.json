@@ -1,0 +1,10 @@
+{
+    "name": "CustomDamageNumbers",
+    "version_number": "1.1.0",
+    "website_url": "",
+    "description": "Customize your damage numbers's look.",
+    "dependencies": [
+        "tristanmcpherson-R2API-2.5.7",
+		"bbepis-BepInExPack-5.3.1"
+    ]
+}
