@@ -33,6 +33,10 @@ This uses a custom material/shader which is less stable and optimized than the d
 Enabling this shader will override the default handling/format for spawning damage numbers. Other mods may not work with this enabled.<br/>
 To enable: In config file, set useLongLineShader to true (useLongLineShader=true)
 
+## Videos
+More damage number digits: https://youtu.be/gWBg0716U44
+Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
+
 ## Change Log
 ### 1.1.0
 Added a custom shader option to support more damage number digits.
