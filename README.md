@@ -38,6 +38,10 @@ More damage number digits: https://youtu.be/gWBg0716U44
 Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
 
 ## Change Log
+### 1.1.1
+- Now using BepInEx's Logger thing instead of Unity's
+- Improved path handling
+
 ### 1.1.0
 Added a custom shader option to support more damage number digits.
 
