@@ -12,7 +12,7 @@ Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/co
 
 ## Installation
 For r2modman: Just install with r2modman.
-For not r2modman: Extract the CustomDamageNumbersPlugin into /Risk of Rain 2/BepInEx/plugins/
+For not r2modman: Extract into /Risk of Rain 2/BepInEx/plugins/
 
 ## Custom Texture Location
 /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
