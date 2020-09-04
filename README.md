@@ -9,7 +9,7 @@ Allows you to change damage number's appearance:
 - Max digits
 
 Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/com.Minitte.CustomDamageNumbers.cfg) 
-@Minitte on the Risk of Rain 2 modding discord if you need something.
+**@Minitte#6490** on the Risk of Rain 2 modding discord if you need something.
 
 ## Installation
 For r2modman: Just install with r2modman.
@@ -47,6 +47,7 @@ Default(RoR2) shader vs the alternative:
 ## Videos
 More damage number digits: https://youtu.be/gWBg0716U44
 Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
+Math for damage (Separate critical hit texture): https://youtu.be/dY-SkWSEt2w
 
 ## Change Log
 
@@ -59,13 +60,5 @@ Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
 - Now using BepInEx's Logger thing instead of Unity's
 - Improved path handling so it works with r2modman
 
-### 1.1.0
-Added a custom shader option to support more damage number digits.
-
-### 1.0.0
-First released with features:
-- Texture
-- Size
-- Lifetime/duration
-- Movement
+### Older change long entries in ChangeLog file.
 
