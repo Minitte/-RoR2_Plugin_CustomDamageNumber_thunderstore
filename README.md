@@ -2,12 +2,13 @@
 
 Allows you to change damage number's appearance:
 - Texture
+- Separate texture for critical hits
 - Size
 - Lifetime/duration
 - Movement
-- Toggle a custom material/shader to supports 11 digit damage numbers
+- Max digits
 
-Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/com.Minitte.CustomDamageNumbers.cfg)
+Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/com.Minitte.CustomDamageNumbers.cfg) 
 @Minitte on the Risk of Rain 2 modding discord if you need something.
 
 ## Installation
@@ -34,16 +35,26 @@ https://docs.google.com/drawings/d/19c3O1PdkXL4hDjM3GEcIc2-pJcNI7KgSr3U-0GCCW0I/
 4. Use text box or drag in pictures or draw.
 5. File > Download > PNG
 
-## 11 Digit Damage Number Support
+## 11 Digit Damage Number Shader (alternative)
 This uses a custom material/shader which is less stable and optimized than the default one. **Kinda experimental.**<br/>
 Enabling this shader will override the default handling/format for spawning damage numbers. Other mods may not work with this enabled.<br/>
-To enable: In config file, set useLongLineShader to true (useLongLineShader=true)
+To enable: In config file, set useLongLineShader to true (useLongLineShader=true)<br/>
+
+Default(RoR2) shader vs the alternative:
+- RoR2 dmg number shader squishes numbers together with more digits
+- The alternative shader will only use the primary texture.
 
 ## Videos
 More damage number digits: https://youtu.be/gWBg0716U44
 Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
 
 ## Change Log
+
+### 1.2.0
+- Added options for a separate texture on critical hits
+- Added more digit support using the default shader
+- Included another sample damage number texture using math symbols
+
 ### 1.1.1
 - Now using BepInEx's Logger thing instead of Unity's
 - Improved path handling so it works with r2modman
