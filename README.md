@@ -18,6 +18,7 @@ For not r2modman: Extract into /Risk of Rain 2/BepInEx/plugins/
 ## Custom Texture Location
 /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
 /Risk of Rain 2/r2modman/BepInEx/plugins/Minitte-CustomDamageNumbers/
+Recommend backing up your own damage number texture/image file before updating.
 
 ## Making your own Damage Number Texture
 - Use a square texture (512x512 is default)
@@ -51,6 +52,10 @@ Math for damage (Separate critical hit texture): https://youtu.be/dY-SkWSEt2w
 
 ## Change Log
 
+### 1.2.1
+- Increased the default max digits to 6
+- Fixed some typos on the readme
+
 ### 1.2.0
 - Added options for a separate texture on critical hits
 - Added more digit support using the default shader
@@ -60,5 +65,5 @@ Math for damage (Separate critical hit texture): https://youtu.be/dY-SkWSEt2w
 - Now using BepInEx's Logger thing instead of Unity's
 - Improved path handling so it works with r2modman
 
-### Older change long entries in ChangeLog file.
+### Older change log entries in ChangeLog file.
 
