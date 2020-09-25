@@ -68,6 +68,7 @@ Plugin DLL: /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/CustomDa
 - Updated installation instructions for non-r2modman players
 - Added troubleshooting info for white rectangle issue
 - Improved plugin path path processing
+- Removed mod from networked mod list. (Doesn't require multiplayer sync)
 
 ### 1.2.1
 - Increased the default max digits to 6
