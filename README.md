@@ -17,8 +17,8 @@ Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/co
 - Just install with r2modman.
 
 ### For not r2modma
-- Extract into the plugins folder and rename to Minitte-CustomDamageNumbers. 
-- Should look like this /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
+- Extract into the plugins folder 
+- Should look kinda like this /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
 
 ## Custom Texture Location
 /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
@@ -67,6 +67,7 @@ Plugin DLL: /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/CustomDa
 ### 1.2.2
 - Updated installation instructions for non-r2modman players
 - Added troubleshooting info for white rectangle issue
+- Improved plugin path path processing
 
 ### 1.2.1
 - Increased the default max digits to 6
@@ -76,10 +77,6 @@ Plugin DLL: /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/CustomDa
 - Added options for a separate texture on critical hits
 - Added more digit support using the default shader
 - Included another sample damage number texture using math symbols
-
-### 1.1.1
-- Now using BepInEx's Logger thing instead of Unity's
-- Improved path handling so it works with r2modman
 
 ### Older change log entries in ChangeLog file.
 
