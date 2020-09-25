@@ -12,8 +12,13 @@ Settings can be adjusted from the config file. (Risk of Rain 2/BepInEX/config/co
 **@Minitte#6490** on the Risk of Rain 2 modding discord if you need something.
 
 ## Installation
-For r2modman: Just install with r2modman.
-For not r2modman: Extract into /Risk of Rain 2/BepInEx/plugins/
+
+### For r2modman 
+- Just install with r2modman.
+
+### For not r2modma
+- Extract into the plugins folder and rename to Minitte-CustomDamageNumbers. 
+- Should look like this /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
 
 ## Custom Texture Location
 /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
@@ -24,7 +29,7 @@ Recommend backing up your own damage number texture/image file before updating.
 - Use a square texture (512x512 is default)
 - Split into 4x4 even sections (512x512 -> each section is 128x128 and there are 16 of them)
 - Use the example damage number texture to know where numbers go
-- Your custom texture goes into the plugin folder. (Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers)
+- Your custom texture goes into the plugin folder. (Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/)
 - Configure the configs with the filename of your texture. (example: my_damage_texture.png)
 - JPEG/.jpg does not support transparency!
 
@@ -50,7 +55,18 @@ More damage number digits: https://youtu.be/gWBg0716U44
 Twitter animal emoji for damage: https://youtu.be/wcuTgsyHsAM
 Math for damage (Separate critical hit texture): https://youtu.be/dY-SkWSEt2w
 
+## Troubleshooting
+
+### My damage numbers are white rectangles.
+The path may not be correct. If you installed this manually, make sure the path to this plugin is:
+Plugin Folder: /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/
+Plugin DLL: /Risk of Rain 2/BepInEx/plugins/Minitte-CustomDamageNumbers/CustomDamageNumberPlugin.dll
+
 ## Change Log
+
+### 1.2.2
+- Updated installation instructions for non-r2modman players
+- Added troubleshooting info for white rectangle issue
 
 ### 1.2.1
 - Increased the default max digits to 6
